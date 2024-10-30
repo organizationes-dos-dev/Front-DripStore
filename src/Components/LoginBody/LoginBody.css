@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+}
+.loginBody{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color:#B5B6F2 ;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+.Images .imgShoes{
+    width: 30vw;
+
+}
+
+.Form {
+    width:30vw;
+    height: 70vh;
+    background-color: white;
+    padding-left: 2vw;
+    border-radius: 5px;
+   
+}
+.Titles{
+    padding-top: 2vh;
+}
+.titlesForm{
+    padding-top: 2vh;
+}
+.emailInput{
+    padding-top: 2vh;
+}
+.emailInput label {
+    display: block;
+    padding-top: 1vh;
+    color: rgb(88, 84, 84);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.emailInput input {
+    width:84%;
+    background-color: #e9e0e0;
+    border: none;
+    height: 5vh;
+    border-radius: 5px;
+    margin-top: 1vh;
+    outline: none;
+    padding: 0 3%;
+}
+
+.passwordInput {
+    padding-top: 2vh;
+}
+
+.passwordInput label {
+    display: block;
+    padding-top: 1vh;
+    color: rgb(88, 84, 84);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.passwordInput input {
+    width: 84%;
+    background-color: #e9e0e0;
+    border: none;
+    height: 5vh;
+    border-radius: 5px;
+    margin-top: 1vh;
+    outline: none;
+    padding: 0 3%;
+}
+.passwordInput input::placeholder,.emailInput input::placeholder {
+    padding-left: 15px;
+}
+
+.passwordInput .Link{
+    display: block;
+    padding-top: 2vh;
+    color: rgb(88, 84, 84);
+    font-size: 14px;
+}
+
+.button{
+    background-color: #C92071;
+    width:90% ;
+    border:none;
+    color: white;
+    height: 5vh;
+    border-radius: 5px;
+    margin-top: 2vh;
+}
+
+.Icons{
+    display: flex;
+    margin-top: 2vh;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.loginFacebook  {
+    border-radius: 5px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: calc(.27548vw + 12.71074px);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color .3s, border-color .3s;
+    background-color: #4c69ba;
+    border: calc(.06887vw + .67769px) solid #4c69ba;
+    padding: calc(.34435vw + 13.38843px) calc(.34435vw + 18.38843px);
+}

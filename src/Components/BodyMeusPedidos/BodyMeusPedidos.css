@@ -1,0 +1,10 @@
+
+
+.bodyPageMeusPedidos {
+    width: 100%;
+    height: 150vh;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10vh;
+}
