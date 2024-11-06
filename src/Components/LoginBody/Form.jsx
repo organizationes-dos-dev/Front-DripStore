@@ -33,7 +33,7 @@ function Form() {
     <div className="Form">
       <div className="Titles">
         <h1>Acesse sua conta</h1>
-        <p className="titlesForm">Novo cliente? Então registre-se <Link to="/register">aqui</Link></p>
+        <p className="titlesForm">Novo cliente? Então registre-se <Link to="/cadastrar">aqui</Link></p>
       </div>
       <form onSubmit={handleLogin}>
         <div className="emailInput">
@@ -58,7 +58,7 @@ function Form() {
           <Link className="Link" to="/forgotsenha">Esqueci minha senha</Link>
         </div>
         <div>
-          <button className="button" type="submit">Acessar Conta</button>
+          <button className="button" type="submit" >Acessar Conta</button>
         </div>
       </form>
       {error && <p className="error-message">{error}</p>}

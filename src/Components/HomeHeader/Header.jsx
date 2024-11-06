@@ -77,7 +77,7 @@ export default function Header() {
           : (
             <>
               <div className="cadastre-se">
-                <Link className='ancoraCadastreseHeader' to="/register">Cadastre-se</Link>
+                <Link className='ancoraCadastreseHeader' to="/cadastrar">Cadastre-se</Link>
                 <button className='btnCadastreseHeader'><Link className='btn-login' to="/login">Login</Link></button>
               </div>
               <div className="carrinho"

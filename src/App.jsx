@@ -6,6 +6,7 @@ import RegisterPage from "./Pages/Register";
 import MeusPedidos from "./Pages/MeusPedidos";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import PagamentoEfetuado from "./Pages/PagamentoEfetuado";
+import CadastrarPage from "./Pages/CadastrarPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="login/*" element={<LoginPage />} />
+          <Route path="cadastrar" element={<CadastrarPage />} />
           <Route path="produtos" element={<ProductPage/>}/>
           <Route path="register" element={<RegisterPage/>}/>
           <Route path="meusPedidos/*" element={<MeusPedidos/>}/>
