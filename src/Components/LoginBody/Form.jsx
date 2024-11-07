@@ -3,6 +3,7 @@ import { useState } from "react";
 import { authUser } from "../../services/UsuarioServices/usuariosService";
 import LoginFacebook from "./LoginFacebook/LoginFacebook";
 import LoginGoogle from "./LoginGoogle/LoginGoogle";
+import "../LoginBody/Form.css"
 
 function Form() {
   const [email, setEmail] = useState('');
@@ -32,25 +33,27 @@ function Form() {
   return (
     <div className="Form">
       <div className="Titles">
-        <h1>Acesse sua conta</h1>
-        <p className="titlesForm">Novo cliente? Então registre-se <Link to="/cadastrar">aqui</Link></p>
+        <h1 style={{fontSize: "26px", paddingTop: "2vh", paddingBottom: "1vh"}}>Acesse sua conta</h1>
+        <p style={{paddingBottom: "1vh"}} className="titlesForm">Novo cliente? Então registre-se <Link className="linkCadastrar" to="/cadastrar">aqui</Link></p>
       </div>
       <form onSubmit={handleLogin}>
         <div className="emailInput">
-          <label htmlFor="email">Login *</label>
-          <input 
-            type="email" 
-            name="email" 
+          <label style={{fontSize: "12px"}} htmlFor="email">Login *</label>
+          <input
+            style={{ background: "rgb(248, 248, 248)", height: "6vh" }}
+            type="email"
+            name="email"
             placeholder="Insira seu login ou email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
         <div className="passwordInput">
-          <label htmlFor="senha">Senha *</label>
-          <input 
-            type="password" 
-            name="senha" 
+          <label style={{fontSize: "12px"}} htmlFor="senha">Senha *</label>
+          <input
+            style={{ background: "rgb(248, 248, 248)", height: "6vh" }}
+            type="password"
+            name="senha"
             placeholder="Insira sua senha"
             value={senha}
             onChange={(e) => setSenha(e.target.value)}
@@ -65,8 +68,8 @@ function Form() {
       {success && <p className="success-message">{success}</p>}
       <div className="Icons">
         <p>Ou faça login com</p>
-        <LoginGoogle/>
-        <LoginFacebook/>
+        <LoginGoogle />
+        <LoginFacebook />
       </div>
     </div>
   );

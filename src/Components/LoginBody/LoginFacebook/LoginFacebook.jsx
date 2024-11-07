@@ -15,7 +15,6 @@ function LoginFacebook() {
         fields="name,email,picture"
         callback={responseFacebook}
         icon="fa-facebook"
-        textButton='Fazer login com o Facebook'
         size='small'
         
       />
