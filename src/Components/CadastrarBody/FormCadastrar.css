@@ -1,6 +1,6 @@
 .FormCadastrar {
     width: 30vw;
-    height: 56vh;
+    height: 36vh;
     background-color: white;
     padding-left: 2vw;
     border-radius: 5px;
@@ -16,4 +16,8 @@
 
 .linkCadastrar {
     color: rgb(71, 71, 71);
+}
+
+.button {
+    cursor: pointer;
 }

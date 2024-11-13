@@ -12,8 +12,7 @@ function FormCadastrar() {
   return (
     <div className="FormCadastrar">
       <div className="Titles">
-        <h1 style={{fontSize: "26px", paddingTop: "2vh", paddingBottom: "1vh"}}>Crie a sua conta</h1>
-        <p style={{paddingBottom: "1vh"}} className="titlesForm">Já possui uma conta? Entre <Link className="linkCadastrar" to="/login">aqui</Link></p>
+        <h1 style={{fontSize: "26px", paddingTop: "2vh", paddingBottom: "1vh"}}>Esqueceu a senha?</h1>      
       </div>
       <form>
         <div className="emailInput">
@@ -28,15 +27,9 @@ function FormCadastrar() {
           />
         </div>
         <div>
-          <Link to="/register"><button className="button" type="submit">Criar Conta</button></Link>
-
+          <Link to="/register"><button className="button" type="submit">Esquecer a senha</button></Link>
         </div>
       </form>
-      <div className="Icons">
-        <p>Ou faça login com</p>
-        <LoginGoogle />
-        <LoginFacebook />
-      </div>
     </div>
   );
 }
