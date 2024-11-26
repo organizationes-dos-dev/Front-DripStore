@@ -7,6 +7,8 @@ import MeusPedidos from "./Pages/MeusPedidos";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import PagamentoEfetuado from "./Pages/PagamentoEfetuado";
 import CadastrarPage from "./Pages/CadastrarPage";
+import CarrinhoPage from "./Pages/Carrinho";
+import Cadastro from "./Pages/Cadastro";
 
 function App() {
   return (
@@ -16,11 +18,13 @@ function App() {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="login/*" element={<LoginPage />} />
-          <Route path="cadastrar" element={<CadastrarPage />} />
+          <Route path="forgotsenha" element={<CadastrarPage />} />
+          <Route path="cadastrar" element={<Cadastro />} />
           <Route path="produtos" element={<ProductPage/>}/>
           <Route path="register" element={<RegisterPage/>}/>
           <Route path="meusPedidos/*" element={<MeusPedidos/>}/>
           <Route path="pagamentoEfetuado" element={<PagamentoEfetuado/>}/>
+          <Route path="carrinho" element={<CarrinhoPage/>}/>
       </Routes>
     </BrowserRouter>
     </GoogleOAuthProvider>

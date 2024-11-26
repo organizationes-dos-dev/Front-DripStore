@@ -1,6 +1,7 @@
 import * as React from 'react';
 import "./ModalCarrinho.css"
 import TenisNike from "../../assets/White-Sneakers-PNG-Clipart 1.png";
+import { Link } from 'react-router-dom';
 
 const style = {
     position: 'absolute',
@@ -50,7 +51,7 @@ export default function ModalCarrinho() {
 
                 <div className='bottomModalBottom'>
                     <h2>Esvaziar</h2>
-                    <button className='btnVerCarrinho'>Ver Carrinho</button>
+                    <Link to="/carrinho" className='btnVerCarrinho'>Ver Carrinho</Link>
                 </div>
             </div>
 

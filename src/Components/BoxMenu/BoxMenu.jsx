@@ -9,11 +9,11 @@ export default function BoxMenu() {
                     <hr className='hrBoxInformacoes'/>
                 </div>
                 <div className='divInformacoes'>
-                    <Link to="/meusPedidos" >Meus Pedidos</Link>
+                    <Link style={{textDecoration: "none", color: "rgb(71, 71, 71)", fontWeight:"bold", fontSize: "14px"}} to="/meusPedidos" >Meus Pedidos</Link>
                     <hr className='hrBoxInformacoes'/>
                 </div>
                 <div className='divInformacoes'>
-                    <Link to="minhas-informacoes" >Minhas Informações</Link>
+                    <Link style={{textDecoration: "none", color: "rgb(71, 71, 71)", fontWeight:"bold", fontSize: "14px"}} to="minhas-informacoes" >Minhas Informações</Link>
                     <hr className='hrBoxInformacoes'/>
                 </div>
                 <div className='divInformacoes'>

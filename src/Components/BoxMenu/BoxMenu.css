@@ -19,6 +19,7 @@
 .divInformacoes > h3 {
     font-size: 14px;
     color: rgb(71, 71, 71);
+    font-weight: bold;
 }
 
 .hrBoxInformacoes {

@@ -32,6 +32,7 @@ export default function Header() {
   const handleMouseLeave = () => {
     setModalOpen(false);
   };
+  
   return (
     <>
       <section className="head">
