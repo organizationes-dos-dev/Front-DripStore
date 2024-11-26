@@ -11,13 +11,14 @@
     background-repeat: no-repeat;
   }
   .card-tenis > p {
-    width: 5.5vw;
+    width: 4vw;
     display: flex;
     padding: 10px 15px;
     margin: 25px 25px;
     gap: 10px;
     border-radius: 29px;
     background: #eeff018e;
+    font-size: 12px;
   }
   #port-ten-card {
     display: flex;

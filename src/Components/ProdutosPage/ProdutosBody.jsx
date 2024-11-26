@@ -5,15 +5,15 @@ export default function ProdutosBody() {
 
     return (
         <>
-        <div className="containerProductPage">
-        <div className="bh">
-            <div><strong>Resultado para Tênis</strong><p> - 389 produtos</p></div>
-            <OrderFilter/>
-        </div>
-        <div className="dv">
-        <FilterObject/>
-        </div>
-        </div>
+            <div className="containerProductPage">
+                <div className="bh">
+                    <div><strong>Resultado para Tênis</strong><p> - 389 produtos</p></div>
+                    <OrderFilter />
+                </div>
+                <div className="dv">
+                    <FilterObject />
+                </div>
+            </div>
         </>
     )
 }
